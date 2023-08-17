@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the index.html */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the chat.ejs */
+#messages {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+#message {
+    width: 70%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* You can add more styling as needed */
